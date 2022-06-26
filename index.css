@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.annoucement{
+    padding: 5px 0px;
+    background-color: rgb(232,89,146);
+}
+.annoucement .text{
+   text-align: center;
+   color: white;
+   font-size: 11px;
+   font-weight: 1000;
+   letter-spacing: 2px;
+   font-family: 'Lato', sans-serif;
+}
+
+
+/* HEADER */
+
+.header{
+    background-color: rgb(55, 115, 115);
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: aqua;
+    padding: 20px 50px;
+    margin:0 50px ;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.logo a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart{
+    grid-column: 6/-1;
+}
